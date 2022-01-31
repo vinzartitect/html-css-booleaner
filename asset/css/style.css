@@ -1,4 +1,4 @@
-/* reset
+/* reset */
 * {
 padding: 0;
 margin: 0;
@@ -6,11 +6,25 @@ box-sizing: border-box;
 }
 /* fine reset */
 
-/* 
-.logo {
+ 
+.sfondo {
     border: 1px solid red;
-    height: 80px;
+    height: 120px;
     background-image: url('../img/pattern.png');
     background-repeat: repeat;
     background-size: cover;
-} */
+    background-size: 20%;
+    background-color: royalblue;
+} 
+
+.logo {
+    height: 80px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.intestazione{
+    font-size: 70px;
+    padding-right: 10%;
+    margin-top: 20px;
+}
